@@ -1,0 +1,14 @@
+defaultNamespace: awx
+targetCustomizations:	
+  helm:
+    values:
+      AWX:
+        enabled: true
+        name: awx
+        spec:
+ 	  service_type: ClusterIP
+	  admin_user: admin
+	  admin_password_secret: awx-admin-password
+	  ingress_type: ingress
+	  ingress_class_name: nginx
+	  hostname: awx.otc.learning
