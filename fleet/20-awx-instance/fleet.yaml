@@ -1,0 +1,3 @@
+defaultNamespace: awx
+dependsOn:
+  - name: operator-bundle 
