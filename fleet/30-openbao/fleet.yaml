@@ -1,0 +1,6 @@
+defaultNamespace: openbao
+name: openbao-bundle
+helm:
+  chart: "./openbao"
+  valuesFiles:
+    - values.yaml
